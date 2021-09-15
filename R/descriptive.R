@@ -12,5 +12,7 @@ ds<-function(x){
   par(mfrow=c(1,1))
   #numeric summary
   data.frame(minimum=min(x),maximum=max(x),
-             median=median(x), sd=sd(x), Range=max(x)-min(x), onesample=t.test(x))
+             median=median(x), sd=sd(x), Range=max(x)-min(x))
+  #one sample t-test
+  test=t.test(x)
 }
