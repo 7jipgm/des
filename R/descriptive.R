@@ -6,9 +6,9 @@ ds<-function(x){
   #1 row and 2 coloums
   par(mfrow=c(1,2))
   #histogram
-  hist(x,col=rainbow(30), title="Histogram")
+  hist(x,col=rainbow(30), main="Histogram")
   #boxplot
-  boxplot(x, col="blue", title="boxplot")
+  boxplot(x, col="blue", main="boxplot")
   par(mfrow=c(1,1))
   #numeric summary
   data.frame(minimum=min(x),maximum=max(x),
