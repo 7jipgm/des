@@ -1,4 +1,4 @@
-#'create box plot, histogram, t-test and numeric summary
+#'create box plot, histogram, quartile deviation and numeric summary
 #'@export
 #'@param x numeric variable
 
