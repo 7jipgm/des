@@ -13,5 +13,5 @@ ds<-function(x){
   #numeric summary
   data.frame(minimum=min(x),maximum=max(x),
              median=median(x), sd=sd(x), Range=max(x)-min(x), quantile(x),
-            IQR(x), var(x), count(x))
+            IQR(x), var(x))
 }
