@@ -8,7 +8,7 @@ ds<-function(x){
   #histogram
   hist(x,col=rainbow(30), main="Histogram")
   #boxplot
-  boxplot(x, col="blue", main="boxplot")
+  boxplot(x, col="red", main="boxplot")
   par(mfrow=c(1,1))
   #numeric summary
   data.frame(minimum=min(x),maximum=max(x),
